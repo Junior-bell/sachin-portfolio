@@ -21,9 +21,9 @@ export default function Hero() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="w-28 h-28 rounded-full bg-gradient-to-tr from-blue-400 to-violet-400 flex items-center justify-center text-6xl font-bold text-white mb-2 shadow-2xl border-4 border-white dark:border-black"
+              className="w-28 h-28 rounded-full bg-gradient-to-tr from-blue-400 to-violet-400 flex items-center justify-center text-6xl font-bold text-white mb-2 shadow-2xl border-4 border-white dark:border-black overflow-hidden"
             >
-              SD
+              <img src="/images/profile.jpg" alt="Sachin Deshmukh" className="w-full h-full object-cover" />
             </motion.div>
             <h1 className="text-5xl font-extrabold tracking-tight mb-2 font-sans bg-gradient-to-r from-blue-500 via-violet-500 to-cyan-500 bg-clip-text text-transparent">
               Sachin Deshmukh
@@ -36,7 +36,7 @@ export default function Hero() {
             </p>
             <div className="flex gap-4 justify-center mt-2">
               <Button asChild size="lg" className="bg-gradient-to-r from-blue-500 to-violet-500 text-white shadow-lg hover:scale-105 transition-transform">
-                <a href="/sachin-resume.pdf" download target="_blank" className="flex items-center gap-2">
+                <a href="/resume/sachin-resume.pdf" download target="_blank" className="flex items-center gap-2">
                   <Download className="w-5 h-5" /> Download Resume
                 </a>
               </Button>
