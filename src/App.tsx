@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { ThemeProvider } from './components/ThemeProvider';
-import ThemeToggle from './components/ThemeToggle';
+
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <Router>
         <div className="min-h-screen bg-background text-foreground">
           <Navbar />
-          <ThemeToggle />
           <main className="max-w-5xl mx-auto px-4 flex flex-col gap-24 pt-8">
             <Routes>
               <Route path="/" element={<Hero />} />
