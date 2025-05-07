@@ -34,14 +34,14 @@ export default function Hero() {
             <p className="max-w-lg text-lg text-gray-600 dark:text-gray-300 mb-4 font-medium">
               Dedicated and detail-oriented software professional with a strong foundation in Python, Django, MySQL, and automation. Experienced in developing scalable applications, automating processes, and managing database operations. Passionate about continuous learning, problem-solving, and collaborating with dynamic teams.
             </p>
-            <div className="flex gap-4 justify-center mt-2">
-              <Button asChild size="lg" className="bg-gradient-to-r from-blue-500 to-violet-500 text-white shadow-lg hover:scale-105 transition-transform">
-                <a href="/resume/sachin-resume.pdf" download target="_blank" className="flex items-center gap-2">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-2 w-full">
+              <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-violet-500 text-white shadow-lg hover:scale-105 transition-transform">
+                <a href="/resume/sachin-resume.pdf" download target="_blank" className="flex items-center gap-2 justify-center">
                   <Download className="w-5 h-5" /> Download Resume
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-blue-400 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900 hover:scale-105 transition-transform">
-                <a href="/contact" className="flex items-center gap-2">
+              <Button asChild size="lg" variant="outline" className="w-full sm:w-auto border-blue-400 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900 hover:scale-105 transition-transform">
+                <a href="/contact" className="flex items-center gap-2 justify-center">
                   <Mail className="w-5 h-5" /> Contact Me
                 </a>
               </Button>
