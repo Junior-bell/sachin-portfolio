@@ -77,7 +77,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <div className="flex items-center gap-2 md:hidden">
-          <ThemeToggle />
+          {!isOpen && <ThemeToggle />}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -113,6 +113,9 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <div className="pt-2 flex justify-end">
+                <ThemeToggle />
+              </div>
             </div>
           </motion.div>
         )}
