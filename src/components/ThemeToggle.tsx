@@ -10,7 +10,7 @@ export default function ThemeToggle() {
       size="icon"
       aria-label="Toggle theme"
       onClick={toggleTheme}
-      className="fixed top-4 right-4 z-50"
+      className="rounded-full border-2 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
     >
       {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
     </Button>
