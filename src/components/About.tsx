@@ -105,7 +105,7 @@ export default function About() {
               >
                 <a 
                   href="/resume/sachin-resume.pdf" 
-                  download="Sachin_Deshmukh_Resume.pdf"
+                  download="sachin-resume.pdf"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
