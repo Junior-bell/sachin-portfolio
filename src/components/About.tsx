@@ -7,17 +7,17 @@ import { Download, MapPin, Github, Linkedin, Mail } from "lucide-react";
 const socialLinks = [
   {
     icon: <Github className="w-5 h-5" />,
-    href: "https://github.com/yourusername",
+    href: "https://github.com/dsachin70/",
     label: "GitHub"
   },
   {
     icon: <Linkedin className="w-5 h-5" />,
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/dsachin70/",
     label: "LinkedIn"
   },
   {
     icon: <Mail className="w-5 h-5" />,
-    href: "mailto:your.email@example.com",
+    href: "mailto:deshmukhsachin2205@gmail.com",
     label: "Email"
   }
 ];
