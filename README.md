@@ -92,9 +92,8 @@ This project is a testament to effective collaboration and shared vision. Workin
 
 Feel free to connect:
 
-Sachin Deshmukh: LinkedIn | Email
 
-Shivam Wagh: LinkedIn | Email
+Shivam Wagh: waghshivam322@gmail.com
 
 
 
